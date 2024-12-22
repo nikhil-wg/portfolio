@@ -1,9 +1,9 @@
 export default [
   {
     title: "Crypto Wallet",
-    imgUrl: " ",
+    imgUrl: "/assets/crypto-wale.png",
     stack: ["REACT", "TailwindCSS", "Crypto libarys"],
-    link: "#",
+    link: "https://web-wallet-sigma.vercel.app/",
   },
   {
     title: "Inverstment Calculater",

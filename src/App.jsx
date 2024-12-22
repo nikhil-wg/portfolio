@@ -4,13 +4,15 @@ import Timeline from "./components/Timeline";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 function App() {
-  return <>
-  <Intro/>
-  <Portfolio/>
-  <Timeline/>
-  <Footer/>
-  <Contact/>
-  </>;
+  return (
+    <>
+      <Intro />
+      <Portfolio />
+      <Timeline />
+      <Contact />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
