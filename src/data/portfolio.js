@@ -7,14 +7,14 @@ export default [
   },
   {
     title: "Inverstment Calculater",
-    imgUrl: " ",
-    stack: ["REACT", "TailwindCSS", "Crypto libarys"],
-    link: "#",
+    imgUrl: "/assets/investment-calculater.png",
+    stack: ["REACT", "TailwindCSS", "Vite"],
+    link: "https://investment-calculator-pied-five.vercel.app/",
   },
   {
     title: "Security Robot",
-    imgUrl: " ",
-    stack: ["REACT", "TailwindCSS", "Crypto libarys"],
-    link: "#",
+    imgUrl: "/assets/robot.jpg",
+    stack: ["C Language", "Ardino", "Python"],
+    link: "https://nikhilwagh.hashnode.dev/securing-the-future-building-a-fire-safety-surveillance-robot",
   },
 ];
