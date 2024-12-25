@@ -1,9 +1,9 @@
 import Title from "./Title";
 export default function Contact() {
   return (
-    <div className="flex flex-col md:flex-row justify-center my-20">
-      <div className="w-full md:w-7/12">
-        <Title>My Socials</Title>
+    <div className="flex flex-row md:flex-row justify-center my-20">
+      <div className="w-7/12">
+        <Title>Socials</Title>
         <div className="flex flex-row justify-center items-center ">
           <div className="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4  sm:grid-cols-2  gap-12">
             {/* git*/}
@@ -51,6 +51,7 @@ export default function Contact() {
             {/* email */}
             <a
               className="w-10 h-12 bg-gray-800 flex items-center justify-center rounded-tr-lg rounded-bl-lg transition-all duration-300 hover:bg-green-500 active:scale-90"
+              
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
