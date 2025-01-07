@@ -11,7 +11,7 @@ function App() {
   const [theme, setTheme] = useState(null);
 
   useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       setTheme("dark");
     } else {
       setTheme("light");
@@ -19,17 +19,17 @@ function App() {
   }, []);
 
   const handleThemeSwitch = () => {
-    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"));
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
   useEffect(() => {
-    console.log("Current theme:", theme); // Log the current theme
+    
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
-      console.log("Dark mode enabled");
+      
     } else {
       document.documentElement.classList.remove("dark");
-      console.log("Light mode enabled");
+      
     }
   }, [theme]);
 

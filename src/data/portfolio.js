@@ -1,5 +1,11 @@
 export default [
   {
+    title: "AI Trip Planner",
+    imgUrl: "/assets/ai-trip-planner.png",
+    stack: ["REACT","TailwindCSS", "FireBase", "Gemini AI"],
+    link: "https://ai-trip-planner-nikhil.vercel.app/",
+  },
+  {
     title: "Crypto Wallet",
     imgUrl: "/assets/crypto-wale.png",
     stack: ["REACT", "TailwindCSS", "Crypto libarys"],
