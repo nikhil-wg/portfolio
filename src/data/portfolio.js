@@ -4,6 +4,7 @@ export default [
     imgUrl: "/assets/ai-trip-planner.png",
     stack: ["REACT","TailwindCSS", "FireBase", "Gemini AI"],
     link: "https://ai-trip-planner-nikhil.vercel.app/",
+    githubLink: "https://github.com/nikhil-wg/AI_Trip_Planner.git",
   },
   {
     title: "Crypto Wallet",
