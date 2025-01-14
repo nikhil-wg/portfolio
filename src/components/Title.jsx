@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-function Title({ children, id }) {
+function  Title({ children, id }) {
     return (
        <h1
           id={id && id}
